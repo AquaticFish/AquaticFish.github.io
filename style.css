@@ -1,0 +1,24 @@
+.main {
+    color: #f5f0e9;
+
+}
+
+body {
+    background-color: #112250;
+}
+
+.header {
+    color: #e0c58f;
+}
+
+
+.nav {
+    flex-direction: row;
+    color: #d9cbc2;
+}
+
+.table {
+border: 4px solid;
+color: #d9cbc2;
+border-color: #e0c58f;
+}

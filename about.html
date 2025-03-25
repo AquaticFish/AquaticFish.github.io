@@ -2,33 +2,34 @@
 <html>
 
 <Head>
-
+    <link rel="stylesheet" href="style.css" />
     <title>
         Lab 1
     </title>
 </Head>
 
-<body style="background-color: palegreen;">
+<body>
     <!-- Nav Bar-->
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">
-                    Home
-                </a>
-            </li>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
 
-            <li>
-                <a href="about.html">
-                    About
-                </a>
-            </li>
-    </nav>
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+        </nav>
+    </div>
 
     <!-- About information-->
-    <h1> Hello! </h1>
-    <p>
-
+    <h1 class="header"> Hello! </h1>
+    <p class="main">
         My name is Dorothy Nguyen! I'm 19 years old and I currently attend Southern Alberta institution of Technology
         (SAIT) within the Interactive graphic design program. I also currently work at two part time jobs, 1.Customer
         consultant at Stephen Cleaner 2. Graphic designer/Production specialist at Fastsigns. I was born here in Canada
@@ -37,9 +38,9 @@
         Daisy and Dylan!
     </p>
 
-    <h3>More Likes of my!</h3>
+    <h3 class="header">More Likes of my!</h3>
     <!-- List -->
-    <ul>
+    <ul class="main">
         <li>
             TV Show and Movies
         </li>
@@ -55,48 +56,56 @@
     </ul>
 
     <!--Orderd List-->
-    <h3> Top 3 Favorites Colours!</h3>
-    <ol>
+    <h3 class="header"> Top 3 Favorites Colours!</h3>
+    <ol class="main">
         <li>Green</li>
         <li>Blue</li>
         <li>Purple</li>
     </ol>
 
+    <block></block>
+
     <!--Earthy Orbiters information-->
-    <h2> What's Earthy Orbiters? </h2>
-    <p>Earthy Orbiters is my small business that I run with my friend! It has a bit of a story behind it as well! It is
+    <h2 class="header"> What's Earthy Orbiters? </h2>
+    <p class="main">Earthy Orbiters is my small business that I run with my friend! It has a bit of a story behind it as
+        well! It is
         about two aliens who were sent to earth to learn about its culture, in doing so, they have invaded the artist
         market to blend in! The aliens are named RUA and Sky based on my and my friend's nicknames! They also have a
         boss who’s our mascot named Ooo and Eye. We sell anime and video game fan merch! Like keychains, prints,
         stickers and temporary tattoos! My personal favorite product that we sell is my Overwatch keychain series!</p>
 
     <!--Table-->
-    <table border="1px">
-        <tr>
-            <th>Which Shows/Games characters do we have?</th>
-            <th>Which would we like to add soon?</th>
-        </tr>
-        <tr>
-            <td>Jinx from Acrane</td>
-            <td>Cloak and Dagger from Marvel Rival </td>
-        </tr>
-        <tr>
-            <td>Juno from Overwatch</td>
-            <td>Jeff the land Shark from Marvel Rival </td>
-        </tr>
-        <tr>
-            <td>Mercy from Overwatch</td>
-            <td>Mantis from Marvel Rival </td>
-        </tr>
-        <tr>
-            <td>Asuka from Neon Genesis Evangelion</td>
-            <td>Spiderman from Marvel Rival </td>
-        </tr>
-    </table>
-    <p>*There more! There's just a lot*</p>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Which Shows/Games characters do we have?</th>
+                <th>Which would we like to add soon?</th>
+            </tr>
+            <tr>
+                <td><span style="color:aliceblue;font-weight:bold">Jinx</span> from <i>Acrane</i></td>
+                <td><span style="color:aliceblue;font-weight:bold">Cloak and Dagger</span> from <i>Marvel Rival</i> </td>
+            </tr>
+            <tr>
+                <td> <span style="color:aliceblue;font-weight:bold">Juno</span> from <i>Overwatch</i></td>
+                <td><span style="color:aliceblue;font-weight:bold">Jeff the land Shark</span> from <i>Marvel Rival</i> </td>
+            </tr>
+            <tr>
+                <td><span style="color:aliceblue;font-weight:bold">Mercy</span> from <i>Overwatch</i></td>
+                <td><span style="color:aliceblue;font-weight:bold">Mantis</span> from <i>Marvel Rival</i> </td>
+            </tr>
+            <tr>
+                <td><span style="color:aliceblue;font-weight:bold">Asuka</span> from <i>Neon Genesiss Evangelion</i> </td> 
+                <td><span style="color:aliceblue;font-weight:bold">Spiderman</span> from <i>Marvel Rival</i> </td>
+            </tr>
+        </table>
+    </div>
 
-    <block>
-    </block>
+    <!--Side note for table-->
+    <p class="main">
+        <i>*There more! There's just a lot* </i>
+    </p>
+
+
 
 </body>
 
