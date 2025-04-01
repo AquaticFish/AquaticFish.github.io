@@ -13,13 +13,13 @@ body {
 
 
 .nav {
-    flex-direction: row;
-    color: #d9cbc2;
+    display: inline;
+
 }
 
 .table {
-padding: 5px;
-border: 4px solid;
-color: #d9cbc2;
-border-color: #e0c58f;
+    padding: 5px;
+    border: 4px solid;
+    color: #d9cbc2;
+    border-color: #e0c58f;
 }
