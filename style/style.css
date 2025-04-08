@@ -37,3 +37,9 @@ ul {
     direction: row;
     
 }
+
+button {
+color: #e0c58f;
+padding: 5px;
+margin: auto;
+}
