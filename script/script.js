@@ -1,8 +1,18 @@
 function showMessage()
 {
-    let x = 3;
-    let y = 4;
-    let z = x+y;
-    alert(z);
-    
+  let age = 19;
+  let Name = "james";
+
+if (age >= 18)
+{
+    alert ("hello" + Name + "you can now drive :] ");
+}
+else
+{
+    alert ("hello kid," + "you are too young to drive")
+    let years = 18 - age;
+    alert("please come back after" + years + "years")
+}
+   
+
 }
