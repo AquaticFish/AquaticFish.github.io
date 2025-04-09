@@ -1,48 +1,127 @@
+/* Overall */
 .main {
-    color: #f5f0e9;
+    color: #4c3c1b;
     margin: auto;
+    padding: auto;
 }
 
+/* OHome title's for both home and gallery */
+#homeheader {
+font-size: 60px;
+}
+
+/* home page */
+#home{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 4px;
+}
+
+/* anything within the body */
 body {
-    background-color: #112250;
+    background-color: #f5f0e9;
     font-family: 'Poppins', sans-serif;
-}
-
-.header {
-    color: #e0c58f;
-    font-family: 'Abril Fatface', sans-serif;
-}
-
-
-.nav {
-    display: inline;
-    background-color: #d9cbc2;
-    font-size: large;
-    border-radius: 5px;
-    padding: 2px;
-}
-
-ul {
-    margin-top: 10px;
-    padding: 5px;
-}
-
-.table {
-    padding: 5px;
-    border: 4px solid;
-    color: #d9cbc2;
-    border-color: #e0c58f;
-}
-
-.flex-container{
-    display: flex;
-    direction: row;
+    color: #4c3c1b;
     
 }
 
+/* headders */
+.header {
+    color: #c4423a;
+    font-family: 'Abril Fatface', sans-serif;
+    size: 45px;
+}
+
+/* Nav bar */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    background-color: #8d8530;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abril Fatface', sans-serif;
+  }
+  
+  /* Nav bar */
+  nav a{
+  padding: 1rem;
+  width: min-content;
+  display: block;
+  text-decoration: none;
+  color: #fdfacd;
+  
+  }
+  
+  /* Nav bar hover effect */
+  nav a:hover {
+    background-color: #8d8530;
+    color: #c4423a;
+    text-decoration: underline;
+  }
+
+/* table */
+.table {
+    padding: 5px;
+    border: 4px solid;
+    color: #fdfacd;
+    background-color: #8d8530;
+    border-color: #4c3c1b;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* flex */
+.flex-container{
+    display: flex;
+    align-items: center;
+    size: 60px;
+}
+
+/* button */
 button {
-color: #e0c58f;
+color: #c4423a;
+background-color: #4c3c1b;
 padding: 5px;
 margin: auto;
 }
+
+
+/* hyperlink to email */
+#mail {
+    padding: 5px; 
+}
+
+/* sub heading */
+#smallerheader{
+    size: 35px;
+}
+
+/* Normal heading */
+#biggerheader{
+    size: 50px;
+}
+
+/* small text below the table */
+.note {
+padding: 10px;
+}
+
+
+/* text details */
+#text {
+    font-size: 25px;
+text-align: left;
+}
+
+/* img */
+.img{
+padding: 10px;
+}
+
+/* details within the table */
+#color{
+    color: #4c3c1b;
+}
+
 

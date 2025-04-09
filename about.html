@@ -3,6 +3,13 @@
 
 <Head>
     <link rel="stylesheet" href="./style/style.css" />
+
+    <!--Google font input-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>
         Lab 1
     </title>
@@ -15,19 +22,19 @@
             <ul>
                 <li class="nav">
                     <a href="index.html">
-                        Home
+                        HOME
                     </a>
                 </li>
 
                 <li class="nav">
                     <a href="about.html">
-                        About
+                        ABOUT
                     </a>
                 </li>
 
                 <li class="nav">
                     <a href="gallery.html">
-                        Gallery
+                        GALLERY
                     </a>
                 </li>
         </nav>
@@ -36,8 +43,8 @@
     <p><a href="t"> Check out the table!</a></p>
 
     <!-- About information-->
-    <h1 class="header"> Hello! </h1>
-    <p class="main">
+    <h1 class="header" d="bigheader"> HELLO :] </h1>
+    <p class="main" id="text">
         My name is Dorothy Nguyen! I'm 19 years old and I currently attend Southern Alberta institution of Technology
         (SAIT) within the Interactive graphic design program. I also currently work at two part time jobs, 1.Customer
         consultant at Stephen Cleaner 2. Graphic designer/Production specialist at Fastsigns. I was born here in Canada
@@ -46,9 +53,9 @@
         Daisy and Dylan!
     </p>
 
-    <h3 class="header">More Likes of my!</h3>
+    <h3 class="header" id="smallerheader">MORE!</h3>
     <!-- List -->
-    <ul class="main">
+    <ul class="main" id="text">
         <li>
             TV Show and Movies
         </li>
@@ -64,8 +71,8 @@
     </ul>
 
     <!--Orderd List-->
-    <h3 class="header"> Top 3 Favorites Colours!</h3>
-    <ol class="main">
+    <h3 class="header" id="smallerheader"> TOP 3 COLOURS!</h3>
+    <ol class="main" id="text">
         <li>Green</li>
         <li>Blue</li>
         <li>Purple</li>
@@ -74,57 +81,63 @@
     <block></block>
 
     <!--Earthy Orbiters information-->
-    <h2 id="C4" class="header"> What's Earthy Orbiters? </h2>
-    <p class="main">Earthy Orbiters is my small business that I run with my friend! It has a bit of a story behind it as
-        well! It is
-        about two aliens who were sent to earth to learn about its culture, in doing so, they have invaded the artist
-        market to blend in! The aliens are named RUA and Sky based on my and my friend's nicknames! They also have a
-        boss who’s our mascot named Ooo and Eye. We sell anime and video game fan merch! Like keychains, prints,
-        stickers and temporary tattoos! My personal favorite product that we sell is my Overwatch keychain series!</p>
+    <h2 class="header" id="bigheader"> EARTHY ORBITERS? </h2>
+    <table>
+        <tr>
+            <th lass="main" id="text">
+                Earthy Orbiters is my small business that I run with my friend! It has a bit
+                of a story behind it as
+                well! It is
+                about two aliens who were sent to earth to learn about its culture, in doing so, they have invaded
+                the artist
+                market to blend in! The aliens are named RUA and Sky based on my and my friend's nicknames! They
+                also have a
+                boss who’s our mascot named Ooo and Eye. We sell anime and video game fan merch! Like keychains,
+                prints,
+                stickers and temporary tattoos! My personal favorite product that we sell is my Overwatch keychain
+                series!
 
-    <!--Image-->
-    <div class="img">
-        <img src="img/alien.png" alt="alien">
-    </div>
+            </th>
 
-    <!--Link-->
-    <div class="main">
-        <a href=”https://www.instagram.com/earthy_orbiters/”>Link to our page!</a>
-    </div>
-
-
+            <th>
+                <!--Image-->
+                <div class="img">
+                    <img src="img/alien.png" alt="alien">
+                </div>
+            </th>
+        </tr>
+    </table>
     <!--Table-->
     <div class="table">
-        <h3 id="t">Table!</h3>
         <table>
             <tr>
                 <th>Which Shows/Games characters do we have?</th>
                 <th>Which would we like to add soon?</th>
             </tr>
             <tr>
-                <td><span style="color:aliceblue;font-weight:bold">Jinx</span> from <i>Acrane</i></td>
-                <td><span style="color:aliceblue;font-weight:bold">Cloak and Dagger</span> from <i>Marvel Rival</i>
+                <td><span id="color" style="font-weight:bold">Jinx</span> from <i>Acrane</i></td>
+                <td><span id="color" style="font-weight:bold">Cloak and Dagger</span> from <i>Marvel Rival</i>
                 </td>
             </tr>
             <tr>
-                <td> <span style="color:aliceblue;font-weight:bold">Juno</span> from <i>Overwatch</i></td>
-                <td><span style="color:aliceblue;font-weight:bold">Jeff the land Shark</span> from <i>Marvel Rival</i>
+                <td> <span id="color" style="font-weight:bold">Juno</span> from <i>Overwatch</i></td>
+                <td><span id="color" style="font-weight:bold">Jeff the land Shark</span> from <i>Marvel Rival</i>
                 </td>
             </tr>
             <tr>
-                <td><span style="color:aliceblue;font-weight:bold">Mercy</span> from <i>Overwatch</i></td>
-                <td><span style="color:aliceblue;font-weight:bold">Mantis</span> from <i>Marvel Rival</i> </td>
+                <td><span id="color" style="font-weight:bold">Mercy</span> from <i>Overwatch</i></td>
+                <td><span id="color" style="font-weight:bold">Mantis</span> from <i>Marvel Rival</i> </td>
             </tr>
             <tr>
-                <td><span style="color:aliceblue;font-weight:bold">Asuka</span> from <i>Neon Genesiss Evangelion</i>
+                <td><span id="color" style="font-weight:bold">Asuka</span> from <i>Neon Genesiss Evangelion</i>
                 </td>
-                <td><span style="color:aliceblue;font-weight:bold">Spiderman</span> from <i>Marvel Rival</i> </td>
+                <td><span id="color" style="font-weight:bold">Spiderman</span> from <i>Marvel Rival</i> </td>
             </tr>
         </table>
     </div>
 
     <!--Side note for table-->
-    <p class="main">
+    <p class="note">
         <i>*There more! There's just a lot* </i>
     </p>
 

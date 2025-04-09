@@ -4,9 +4,13 @@
 <head>
     <link rel="stylesheet" href="./style/style.css" />
     <script> src = './script/script.js'</script>
+
+    <!--Tab name-->
     <title>
-        Lab 1
+        Lab 2
     </title>
+
+    <!--Google font input-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,42 +20,49 @@
 
 <body>
     <!-- Nav Bar-->
-    <div class="flex-container">
+    <div>
         <nav>
             <!-- remove the list keep a but move the class into a-->
             <ul>
-                <li class="nav">
+                <li>
                     <a href="index.html">
-                        Home
+                        HOME
                     </a>
                 </li>
 
                 <li class="nav">
                     <a href="about.html">
-                        About
+                        ABOUT
                     </a>
                 </li>
 
                 <li class="nav">
                     <a href="gallery.html">
-                        Gallery
+                        GALLERY
                     </a>
                 </li>
         </nav>
     </div>
 
-    <h1 class="header"> Welcome! </h1>
-    <p class="main"> This is the beginning of building toward a fun personal blog! I'll be discussing
-        hobbies and my personal favorites! Simply this is just a great way to just get to know me! Please refer to the
-        About page to get into the nitty gritty details. If there are any questions there is a link to my email
-        available down below :D</p>
-
+    <div class="main" id="home">
+        <h1 class="header" id="homeheader"> Welcome! </h1>
+        <p class="main" id="text"> This is the beginning of building toward a fun personal blog! I'll be discussing
+            hobbies and my personal favorites! Simply this is just a great way to just get to know me! Please refer to
+            the
+            About page to get into the nitty gritty details. If there are any questions there is a link to my email
+            available down below :D</p>
+    
     <!-- Email-->
-    <p class="main"><a href="mailto:Dorothy.nguyen@edu.sait.ca">Gmail</a></p>
+    <p class="main" id="mail">
+        <a href="mailto:Dorothy.nguyen@edu.sait.ca">Gmail</a>
+    </p>
 
     <!-- Button -->
-    <button onclick="alert('click me')"> Click me</button>
+    <button onclick="changeColor()('click me')"> Click me</button>
+</div>
+
 
 </body>
+
 
 </html>
